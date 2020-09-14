@@ -38,4 +38,5 @@ public class Encrypter {
         int arr[]= {pos1,pos2,pos3,pos4};
         return arr;
     }
+
 }
