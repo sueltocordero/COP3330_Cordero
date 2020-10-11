@@ -1,2 +1,6 @@
-public abstract class Shape2D {
+public abstract class Shape2D extends Shape{
+
+    public abstract double getArea();
+
+
 }

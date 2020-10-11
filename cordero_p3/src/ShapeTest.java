@@ -25,12 +25,12 @@ class ShapeTest {
     @Test
     public void testTriangleName(){
         Shape shape = new Triangle(100,100);
-        assertEquals("Triangle", shape.getName());
+        assertEquals("triangle", shape.getName());
     }
 
     @Test
-    public void testTriangleName(){
-        Shape shape = new Triangle(10,10);
+    public void testTriangleArea(){
+        Shape2D shape = new Triangle(10,10);
         assertEquals(50, shape.getArea());
     }
 
@@ -73,7 +73,7 @@ class ShapeTest {
         Shape3D shape = new Cube(10);
         assertEquals(600, shape.getArea());
     }
-
+/*
     @Test
     public void testCubeArea2(){
         Shape shape = new Cube(0.5);
@@ -112,5 +112,46 @@ class ShapeTest {
         assertEquals(281.13, shape.getArea(), 0.01);
     }
     @Test
-    public void testPyramidVolume
+    public void testPyramidVolume(){
+        Shape3D shape = new Pyramid(10,10,10);
+        assertEquals(333.33, shape.getVolume(),0.01);
+    }
+
+    @Test
+    public void testPyramidVolume2(){
+        Shape3D shape = new Pyramid(1.5,0.5,2.5);
+        assertEquals(0.63, shape.getVolume(), 0.01);
+    }
+
+    @Test
+    public void testSphereName(){
+        Shape shape = new Sphere(10);
+        assertEquals("sphere", shape.getName());
+    }
+
+    @Test
+    public void testSphereArea(){
+        Shape3D shape = new Sphere(10);
+        assertEquals(1256.64, shape.getArea(), 0.01);
+    }
+
+    @Test
+    public void testSphereArea2(){
+        Shape3D shape = new Sphere(0.75);
+        assertEquals(7.07, shape.getArea(), 0.01);
+    }
+
+    @Test
+    public void testSphereVolume(){
+        Shape3D shape = new Sphere(10);
+        assertEquals(4188.79, shape.getVolume(),0.01);
+    }
+
+    @Test
+    public void testSphereVolume2(){
+        Shape3D shape = new Sphere(0.6);
+        assertEquals(0.9,shape.getVolume(),0.1);
+    }
+
+    */
 }
