@@ -73,7 +73,7 @@ class ShapeTest {
         Shape3D shape = new Cube(10);
         assertEquals(600, shape.getArea());
     }
-/*
+
     @Test
     public void testCubeArea2(){
         Shape shape = new Cube(0.5);
@@ -111,6 +111,7 @@ class ShapeTest {
         Shape3D shape = new Pyramid(5,10,15);
         assertEquals(281.13, shape.getArea(), 0.01);
     }
+
     @Test
     public void testPyramidVolume(){
         Shape3D shape = new Pyramid(10,10,10);
@@ -153,5 +154,5 @@ class ShapeTest {
         assertEquals(0.9,shape.getVolume(),0.1);
     }
 
-    */
+
 }

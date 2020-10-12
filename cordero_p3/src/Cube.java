@@ -1,13 +1,13 @@
 public class Cube extends Shape3D {
     private double side;
-    public Cube(int side) {
+    public Cube(double side) {
         super();
         this.side = side;
     }
 
     @Override
     public double getVolume() {
-        return 0;
+        return side*side*side;
     }
 
     @Override
