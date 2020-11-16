@@ -1,69 +1,78 @@
 import org.junit.jupiter.api.Test;
 
+import java.util.Scanner;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class TaskListTest {
-    /*@Test
-    void creatingTaskItemFailsWithInvalidDueDate(){}
 
     @Test
-    void creatingTaskItemFailsWithInvalidTitle(){}
+    public void creatingTaskItemFailsWithInvalidDueDate(){
+        TaskList Test = new TaskList();
+        String trial =  Test.add("Task 1", "","");
+        assertEquals("No Task",trial);
+    }
     @Test
-    void creatingTaskItemSucceedsWithValidDueDate(){}
+    public void creatingTaskItemFailsWithInvalidTitle(){
+        TaskList Test = new TaskList();
+        String trial =  Test.add("", "","2020-11-17");
+        assertEquals("No Task",trial);
+    }
     @Test
-    void creatingTaskItemSucceedsWithValidTitle(){}
+    public void creatingTaskItemSucceedsWithValidDueDate(){
+        TaskList Test = new TaskList();
+        String trial =  Test.add("Test", "","2020-11-17");
+        assertEquals("Task Created!",trial);
+    }
     @Test
-    void settingTaskItemDueDateFailsWithInvalidDate(){}
+    public void creatingTaskItemSucceedsWithValidTitle(){
+        TaskList Test = new TaskList();
+        String trial =  Test.add("Test", "","2020-11-17");
+        assertEquals("Task Created!",trial);
+    }
+
+
+
+    /*@Test
+    public void completingTaskItemFailsWithInvalidIndex(){}
     @Test
-    void settingTaskItemDueDateSucceedsWithValidDate(){}
+    public void editingTaskItemChangesValues(){}
     @Test
-    void settingTaskItemTitleFailsWithInvalidTitle(){}
+    public void editingTaskItemDescriptionChangesValue(){}
     @Test
-    void settingTaskItemTitleSucceedsWithValidTitle(){}
+    public void editingTaskItemDescriptionFailsWithInvalidIndex(){}
     @Test
-    void addingTaskItemsIncreasesSize(){}
+    public void editingTaskItemDueDateChangesValue(){}
     @Test
-    void completingTaskItemChangesStatus(){}
+    public void editingTaskItemDueDateFailsWithInvalidIndex(){}
     @Test
-    void completingTaskItemFailsWithInvalidIndex(){}
+    public void editingTaskItemTitleChangesValue(){}
     @Test
-    void editingTaskItemChangesValues(){}
+    public void editingTaskItemTitleFailsWithInvalidIndex(){}
     @Test
-    void editingTaskItemDescriptionChangesValue(){}
+    public void gettingTaskItemDescriptionFailsWithInvalidIndex(){}
     @Test
-    void editingTaskItemDescriptionFailsWithInvalidIndex(){}
+    public void gettingTaskItemDescriptionSucceedsWithValidIndex(){}
     @Test
-    void editingTaskItemDueDateChangesValue(){}
+    public void gettingTaskItemDueDateFailsWithInvalidIndex(){}
     @Test
-    void editingTaskItemDueDateFailsWithInvalidIndex(){}
+    public void gettingTaskItemDueDateSucceedsWithValidIndex(){}
     @Test
-    void editingTaskItemTitleChangesValue(){}
+    public void gettingTaskItemTitleFailsWithInvalidIndex(){}
     @Test
-    void editingTaskItemTitleFailsWithInvalidIndex(){}
+    public void gettingTaskItemTitleSucceedsWithValidIndex(){}
     @Test
-    void gettingTaskItemDescriptionFailsWithInvalidIndex(){}
+    public void newTaskListIsEmpty(){}
     @Test
-    void gettingTaskItemDescriptionSucceedsWithValidIndex(){}
+    public void removingTaskItemsDecreasesSize(){}
     @Test
-    void gettingTaskItemDueDateFailsWithInvalidIndex(){}
+    public void removingTaskItemsFailsWithInvalidIndex(){}
     @Test
-    void gettingTaskItemDueDateSucceedsWithValidIndex(){}
+    public void savedTaskListCanBeLoaded(){}
     @Test
-    void gettingTaskItemTitleFailsWithInvalidIndex(){}
+    public void uncompletingTaskItemChangesStatus(){}
     @Test
-    void gettingTaskItemTitleSucceedsWithValidIndex(){}
-    @Test
-    void newTaskListIsEmpty(){}
-    @Test
-    void removingTaskItemsDecreasesSize(){}
-    @Test
-    void removingTaskItemsFailsWithInvalidIndex(){}
-    @Test
-    void savedTaskListCanBeLoaded(){}
-    @Test
-    void uncompletingTaskItemChangesStatus(){}
-    @Test
-    void uncompletingTaskItemFailsWithInvalidIndex(){}
+    public void uncompletingTaskItemFailsWithInvalidIndex(){}
 
      */
 }
